@@ -1,0 +1,16 @@
+﻿  main.cpp
+C:\Users\25075\source\repos\template\template\main.cpp(68,16): warning C4101: “t1”: 未引用的局部变量
+C:\Users\25075\source\repos\template\template\main.cpp(97,22): error C2065: “TYPE_INT”: 未声明的标识符
+C:\Users\25075\source\repos\template\template\main.cpp(99,22): error C2065: “TYPE_INT”: 未声明的标识符
+C:\Users\25075\source\repos\template\template\main.cpp(101,27): error C2065: “TYPE_FLOAT”: 未声明的标识符
+C:\Users\25075\source\repos\template\template\main.cpp(103,22): error C2065: “TYPE_FLOAT”: 未声明的标识符
+C:\Users\25075\source\repos\template\template\main.cpp(139,37): error C2143: 语法错误: 缺少“;”(在“<”的前面)
+      C:\Users\25075\source\repos\template\template\main.cpp(139,37):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\Users\25075\source\repos\template\template\main.cpp(136,7):
+          在编译类模板部分专用化“RemoveReference<T*>”时
+  
+C:\Users\25075\source\repos\template\template\main.cpp(139,22): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\25075\source\repos\template\template\main.cpp(139,42): error C2039: "Result": 不是 "`global namespace'" 的成员
+C:\Users\25075\source\repos\template\template\main.cpp(140,1): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+C:\Users\25075\source\repos\template\template\main.cpp(140,1): error C2238: 意外的标记位于“;”之前
