@@ -1,4 +1,7 @@
 #include<bits/stdc++.h>
+
+//constexpr相当于const的更加严格的版本
+//必须在编译阶段就确定值
 constexpr int i=520;
 constexpr int j=i+1;
 struct T{
@@ -15,7 +18,7 @@ template <typename T>
 constexpr T display(T t){
     return t;
 }
-
+//constexpr修饰构造函数只能在后面直接用输入为成员变量赋值，不能在函数体里面进行
 struct Person{
     constexpr Person(const char* p,int age):name(p),_age(age)
     {}
