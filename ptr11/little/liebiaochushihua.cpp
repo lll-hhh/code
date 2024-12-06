@@ -1,4 +1,6 @@
 #include <iostream>
+#include <initializer_list>
+#include <list>
 using namespace std;
 
 class Test
@@ -43,4 +45,21 @@ int main(void)
 {
     Person p = func();
     return 0;
+}
+
+
+void traversal(std::initializer_list<int> a)
+{
+    for(auto it=a.begin();it!=a.end();++it){
+        cout<<*it<<" ";
+    }
+    cout<<endl;
+}
+
+void test(){
+    initializer_list<int> liuhao{1,2,3,34};
+    traversal(liuhao);
+
+    std::list<int> liuchen{1,2,3,4,5};
+    //traversal(liuchen);error
 }
