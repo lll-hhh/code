@@ -14,7 +14,7 @@ public:
         cout << "copy construct: my name is tom" << endl;
     }
 
-    // æ·»åŠ ç§»åŠ¨æ„é€ å‡½æ•°
+    // Ìí¼ÓÒÆ¶¯¹¹Ôìº¯Êı
     Test(Test&& a) : m_num(a.m_num)
     {
         a.m_num = nullptr;
